@@ -204,6 +204,7 @@ const ParticipantsPane = () => {
                             type = { BUTTON_TYPES.SECONDARY } />
                     )}
 
+{/* for webinar button */}
 {showWebinarModeButton && (
                             <div className={classes.WebinarMode}>
                                 <Button
