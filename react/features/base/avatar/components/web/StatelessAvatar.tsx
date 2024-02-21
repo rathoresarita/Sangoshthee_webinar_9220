@@ -143,6 +143,7 @@ const StatelessAvatar = ({
         };
     };
 
+    console.log('tests')
     const _getAvatarClassName = (additional?: string) => cx('avatar', additional, className, classes.avatar);
 
     const _getBadgeClassName = () => {
