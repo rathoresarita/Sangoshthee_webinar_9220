@@ -40,6 +40,7 @@ export function appNavigate(uri?: string) {
     return async (dispatch: IStore['dispatch'], getState: IStore['getState']) => {
         let location = parseURIString(uri);
 
+        console.log('hii')
         // If the specified location (URI) does not identify a host, use the app's
         // default.
         if (!location?.host) {
