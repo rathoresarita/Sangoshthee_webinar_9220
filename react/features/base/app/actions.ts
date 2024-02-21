@@ -15,6 +15,7 @@ import {
  *     app: App
  * }}
  */
+
 export function appWillMount(app: Object) {
     return (dispatch: IStore['dispatch']) => {
         // TODO There was a redux action creator appInit which I did not like
