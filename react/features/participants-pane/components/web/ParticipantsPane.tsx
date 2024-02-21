@@ -132,6 +132,7 @@ const ParticipantsPane = () => {
    
 
     console.log('i')
+    console.log('i')
     const webinarEnabled = useSelector((state: IReduxState) => state['features/base/conference'].webinarEnabled)
 
     const dispatch = useDispatch();
