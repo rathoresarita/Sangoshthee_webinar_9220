@@ -130,6 +130,8 @@ const ParticipantsPane = () => {
     const showMuteAllButton = useSelector(isMuteAllVisible);
     const showMoreActionsButton = useSelector(isMoreActionsVisible);
    
+
+    console.log('i')
     const webinarEnabled = useSelector((state: IReduxState) => state['features/base/conference'].webinarEnabled)
 
     const dispatch = useDispatch();
